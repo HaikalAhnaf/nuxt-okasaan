@@ -5,11 +5,10 @@
 </template>
 
 <script>
-
-    import Contact from '../components/ContactUs/Contact.vue';
-
     export default {
-        
+        head : {
+            title: 'Kontak Kami | Devavrata Sinergi Indonesia',
+        }
     }
 </script>
 

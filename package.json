@@ -9,12 +9,19 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
+    "@fancyapps/ui": "^5.0.35",
     "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/i18n": "^7.3.1",
+    "bootstrap": "^5.2.3",
     "core-js": "^3.25.3",
+    "fancybox": "^3.0.1",
+    "jquery": "^3.7.1",
     "nuxt": "^2.15.8",
+    "swiper": "^11.0.7",
     "vue": "^2.7.10",
+    "vue-horizontal": "^0.8.13",
     "vue-server-renderer": "^2.7.10",
     "vue-template-compiler": "^2.7.10"
-  },
-  "devDependencies": {}
+  }
 }

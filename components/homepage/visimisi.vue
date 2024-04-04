@@ -8,8 +8,8 @@
                     </div>
                     <div class="col-lg-6 px-lg-5 p-4 d-flex align-items-center">
                     <div>
-                        <h1 class="Roboto">VISI</h1> <br>
-                    <h4 class="Poppins" style="text-align: justify;">Pelajari lebih lanjut mengenai detail laundry services kami, perlecgkapan produk, dan wimala</h4>
+                        <h1 class="Roboto">{{ $t('indexVisi') }}</h1> <br>
+                    <h4 class="Poppins" style="text-align: justify;">{{ $t('indexIsiVisi') }}</h4>
                     </div>
                     </div>
                 </div>
@@ -19,8 +19,8 @@
                     </div>
                     <div class="col-lg-6 px-lg-5 p-4 d-flex align-items-center">
                     <div>
-                        <h1 class="Roboto">MISI</h1> <br>
-                    <h4 class="Poppins" style="text-align: justify;">Menyediakan layanan laundry di seluruh Pulau Jawa dan dengan tulus mengedukasi pasar dengan pengetahuan laundry yang tepat.</h4>
+                        <h1 class="Roboto">{{ $t('indexMisi') }}</h1> <br>
+                    <h4 class="Poppins" style="text-align: justify;">{{ $t('indexIsiMisi') }}</h4>
                     </div>
                     </div>
                 </div>
@@ -35,6 +35,21 @@
     }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
+      .visimisi {
+        padding: 3rem 0 7rem;
+        position: relative;
+        background-size:100%;
+        background-image: url('/images/background/HeroSectionKanan.jpg');
+        z-index: 0
+    }
+
+    @media (max-width: 500px) {
+
+       .visimisi {
+        background-image: url('/images/background/BG-HP.jpg');
+       }
+        
+      }
 
 </style>

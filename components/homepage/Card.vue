@@ -4,9 +4,9 @@
             <div class="card border-0 rounded-0 shadow-0" style="background-image: url('/images/background/Background2.jpg'); background-size: cover;">
             <NuxtLink to="/Laundry">
             <div class="card-body Poppins text-center py-5">
-                <h5 class="card-title p-5 text-white text-uppercase display-5 fw-bold Roboto">Laundry</h5>
+                <h5 class="card-title p-5 text-white text-uppercase display-5 fw-bold Roboto">{{ $t('indexJudulCard1') }}</h5>
                 <p class="card-text text-white pb-5 Poppins">
-                Pelajari lebih lanjut mengenai laundry services kami, Peralatan & Perlengkapan Laundry, dan wimala
+                    {{ $t('indexTextCard1') }}
                 </p>
             </div>
             </NuxtLink>
@@ -17,9 +17,9 @@
             <div class="card border-0 rounded-0 shadow-0" style="background-image: url('/images/background/Background1.jpg'); background-size: cover;">
             <NuxtLink to="/Agency">
             <div class="card-body Poppins text-center py-5" style="color: #931A25;">
-                <h5 class="card-title p-5 text-uppercase display-5 fw-bold Roboto">Agency</h5>
+                <h5 class="card-title p-5 text-uppercase display-5 fw-bold Roboto">{{ $t('indexJudulCard2') }}</h5>
                 <p class="card-text pb-5 Poppins">
-                Pelajari lebih lanjut tentang acara-acara kami dan strategic marketing agency kami.
+                    {{ $t('indexTextCard2') }}
                 </p>
             </div>
             </NuxtLink>

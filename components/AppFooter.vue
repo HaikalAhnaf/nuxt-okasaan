@@ -1,53 +1,53 @@
 <template>
     <div>
-        <footer class="text-center text-lg-start bg-white text-muted">
+        <footer class="text-center text-lg-start bg-white text-muted shadow-lg">
             <!-- Section: Links  -->
             <section class="d-flex justify-content-center">
             <div class="container py-2 text-center text-md-start mt-5 border-bottom">
                 <!-- Grid row -->
                 <div class="row mt-3 pt-5">
                 <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4"><a href="../Laundry/index.html" style="text-decoration: none;">
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 text-center"><NuxtLink to="/Laundry" style="text-decoration: none;">
                     <!-- Links -->
                     <h6 class="text-uppercase fw-bold mb-4 Roboto" style="color: #931A25;">
-                    LAUNDRY
-                    </h6></a>
+                    {{$t('HalamanLaundryIndex')}}
+                    </h6></NuxtLink>
                     <p class="footer-text">
-                    <a href="../Laundry/Okaasan.html" class="text-reset" style="text-decoration: none;">Okaasan</a>
+                    <NuxtLink to="/laundry/Okaasan" class="text-reset" style="text-decoration: none;">{{$t('HalamanLaundryOkaasan')}}</NuxtLink>
                     </p>
                     <p class="footer-text">
-                    <a href="../Laundry/Training.html" class="text-reset" style="text-decoration: none;">Training</a>
+                    <NuxtLink to="/laundry/Training" class="text-reset" style="text-decoration: none;">{{$t('HalamanLaundryTraining')}}</NuxtLink>
                     </p>
                     <p class="footer-text">
-                    <a href="../Laundry/Laundry-Equipment.html" class="text-reset" style="text-decoration: none;">Laundry Equipment & Supplies</a>
+                    <NuxtLink to="/laundry/LaundryEquipmentDanSupplies" class="text-reset" style="text-decoration: none;">{{$t('HalamanLaundryLaundryEquipmentDanSupplies')}}</NuxtLink>
                     </p>
                     <p class="footer-text">
-                    <a href="../Laundry/Wimala.html" class="text-reset" style="text-decoration: none;">Wimala</a>
+                    <NuxtLink to="/laundry/Wimala" class="text-reset" style="text-decoration: none;">{{$t('HalamanLaundryWimala')}}</NuxtLink>
                     </p>
                 </div>
                 
                 <!-- Grid column -->
 
                 <!-- Grid column -->
-                <div class="col-md-3 col-lg-2 col-xl-2 mb-4"><a href="../Agency/index.html" style="text-decoration: none;">
+                <div class="col-md-3 col-lg-2 col-xl-2 mb-4 text-center"><NuxtLink to="/Agency" style="text-decoration: none;">
                     <!-- Links -->
                     <h6 class="text-uppercase fw-bold mb-4 Roboto" style="color: #931A25;">
-                    AGENCY
-                    </h6></a>
+                    {{$t('HalamanAgencyIndex')}}
+                    </h6></NuxtLink>
                     <p class="footer-text">
-                    <a href="../Agency/Event.html" class="text-reset" style="text-decoration: none;">Event</a>
+                    <NuxtLink to="/agency/Event" class="text-reset" style="text-decoration: none;">{{$t('HalamanAgencyEvent')}}</NuxtLink>
                     </p>
                     <p class="footer-text">
-                    <a href="../Agency/Strategicmarketing.html" class="text-reset" style="text-decoration: none;">Strategic Marketing</a>
+                    <NuxtLink to="/agency/StrategicMarketing" class="text-reset" style="text-decoration: none;">{{$t('HalamanAgencyStrategicMarketing')}}</NuxtLink>
                     </p>
                     <p class="footer-text">
-                    <a href="../Agency/SM/Socialmedia.html" class="text-reset" style="text-decoration: none;">Sosial Media</a>
+                    <NuxtLink to="/agency/strategicmarketing/SocialMedia" class="text-reset" style="text-decoration: none;">{{$t('HalamanAgencyStrategicMarketingSocialMedia')}}</NuxtLink>
                     </p>
                     <p class="footer-text">
-                    <a href="../Agency/SM/Videoproduction.html" class="text-reset" style="text-decoration: none;">Video & Fotografi</a>
+                    <NuxtLink to="/agency/strategicmarketing/ProduksiFotoDanVideo" class="text-reset" style="text-decoration: none;">{{$t('HalamanAgencyStrategicMarketingPhotodanVideoProduction')}}</NuxtLink>
                     </p>
                     <p class="footer-text">
-                    <a href="../Agency/SM/Website.html" class="text-reset" style="text-decoration: none;">Website</a>
+                    <NuxtLink to="/agency/strategicmarketing/Website" class="text-reset" style="text-decoration: none;">{{$t('HalamanAgencyStrategicMarketingWebsite')}}</NuxtLink>
                     </p>
 
 
@@ -55,21 +55,21 @@
                 <!-- Grid column -->
 
                 <!-- Grid column -->
-                <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mb-4 justify-content-end"><a href="../kontakkami.html" target="_blank" style="text-decoration: none;">
+                <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mb-4 justify-content-end"><NuxtLink to="ContactUs" target="_blank" style="text-decoration: none;">
                     <!-- Links -->
                     <h6 class="text-uppercase fw-bold mb-4 Roboto" style="color: #931A25;">
-                    Contact Us
-                    </h6></a>
+                        {{$t('HalamanKontakKami')}}
+                    </h6></NuxtLink>
                     <!-- Right -->
                     <div>
-                    <p class="Poppins" style="text-align: justify; color: black;">Depok Cyber Blok A7 Jalan Kalimulya, Jawa Barat, Depok, Indonesia, 16413.</p>
+                    <p class="Poppins" style="text-align: justify; color: black;">{{$t('KontakKamiAlamat')}}</p>
                     <span class="d-inline-block Poppins" tabindex="0" data-mdb-toggle="tooltip" title="Linktree Devavrata">
                         linktree: 
                         <button type="button" class="rounded-9 btn btn-outline-black">
-                        <a href="https://linktr.ee/devavrata.sinergi?utm_source=linktree_profile_share&ltsid=68f78ad5-8fa8-4144-84d2-79502e15e6f4"
+                        <NuxtLink to="https://linktr.ee/devavrata.sinergi?utm_source=linktree_profile_share&ltsid=68f78ad5-8fa8-4144-84d2-79502e15e6f4"
                             class="link-white" target="_blank" style="text-decoration: none;color: #931A25;">
                             <i class="fa fa-link"></i>
-                        </a>
+                        </NuxtLink>
                         </button>             
                     </span>
 
@@ -82,14 +82,14 @@
                 <div class="row">
                 <div class="row mb-5">
                     <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
-                        <div class="lc-block"><a href="../Laundry/Okaasan.html">
+                        <div class="lc-block"><NuxtLink to="../Laundry/Okaasan">
                             <img class="img-fluid" src="/images/footer/Okasaan_Transparan.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
-                        </a></div><!-- /lc-block -->
+                        </NuxtLink></div><!-- /lc-block -->
                     </div><!-- /col -->
                     <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
-                        <div class="lc-block"><a href="../Laundry/Wimala.html">
+                        <div class="lc-block"><NuxtLink to="../Laundry/Wimala">
                             <img class="img-fluid" src="/images/footer/Wimala_Transapran.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
-                        </a></div><!-- /lc-block -->
+                        </NuxtLink></div><!-- /lc-block -->
                     </div><!-- /col -->
                     <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
                         <div class="lc-block">

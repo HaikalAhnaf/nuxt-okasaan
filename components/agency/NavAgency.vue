@@ -1,17 +1,17 @@
 <template>
     <div>
-        <section class="py-6" lc-helper="background" style="background:linear-gradient(180deg, rgba(19, 16, 34, 0.58) 0%, rgba(19, 16, 34, 0.78) 100%), url('/images/Agency_LP.jpg')  center / cover no-repeat;">
+        <section class="py-5" lc-helper="background" style="background:linear-gradient(180deg, rgba(19, 16, 34, 0.58) 0%, rgba(19, 16, 34, 0.78) 100%), url('/images/Agency_LP.jpg')  center / cover no-repeat;">
       <div class="container">
           <div class="row justify-content-center">
               <div class="col-md-12 col-xxl-6">
                   <div class="lc-block text-white mb-5">
                       <div editable="rich">
-                          <h1 class="display-4 fw-bold text-center Roboto">Agency</h1>
+                          <h1 class="display-4 fw-bold text-center Roboto">{{ $t('AgencyIndexJudul') }}</h1>
                       </div>
                   </div><!-- /lc-block -->
                   <div class="lc-block mb-8">
                       <div editable="rich">
-                          <p class="text-center rfs-9 text-light Poppins">Pelajari lebih lanjut tentang acara-acara kami dan strategic marketing agency kami.</p>
+                          <p class="text-center rfs-9 text-light Poppins h5">{{ $t('AgencyIndexText') }}</p>
                       </div>
                   </div><!-- /lc-block -->
               </div><!-- /col -->
@@ -29,31 +29,31 @@
                     <div class="ag-courses_box">
                       
                       <div class="ag-courses_item">
-                        <a href="Event.html" style="text-decoration: none;" class="ag-courses-item_link">
+                        <NuxtLink to="/agency/Event" style="text-decoration: none;" class="ag-courses-item_link">
                           <div class="ag-courses-item_bg"></div>
         
                           <div class="ag-courses-item_title Roboto d-flex align-items-center text-uppercase">
-                            Event
+                            {{ $t('AgencyIndexBox1') }}
                           </div>
                   
                           <div class="ag-courses-item_date-box">
 
                           </div>
-                        </a>
+                        </NuxtLink>
                       </div>
                   
                       <div class="ag-courses_item">
-                        <a href="Strategicmarketing.html" style="text-decoration: none;" class="ag-courses-item_link">
+                        <NuxtLink to="/agency/StrategicMarketing" style="text-decoration: none;" class="ag-courses-item_link">
                           <div class="ag-courses-item_bg"></div>
         
                           <div class="ag-courses-item_title Roboto d-flex align-items-center text-uppercase">
-                            Strategic Marketing
+                            {{ $t('AgencyIndexBox2') }}
                           </div>
                   
                           <div class="ag-courses-item_date-box">
 
                           </div>
-                        </a>
+                        </NuxtLink>
                       </div>
 
 

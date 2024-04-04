@@ -4,11 +4,11 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-7 py-5">
-                        <h1 class="mb-4 Roboto">Devavrata Sinergi Indonesia</h1>
-                        <h2 class="m-0 Poppins">Solusi yang tepat, di tangan yang tepat untuk bisnis laundrymu</h2>
+                        <h1 class="mb-4 Roboto">{{ $t('indexJudul') }}</h1>
+                        <h2 class="m-0 Poppins">{{ $t('indexQuotes') }}</h2>
                     </div>
                     <div class="col-lg-5">
-                    <img src="/images/logo/DSI.png" alt="">
+                    <img src="/images/logo/DSI.png" alt="" class="w-100">
                     <div class="shape"></div>
                     </div>
                 </div>
@@ -56,23 +56,82 @@
     </div>
 </template>
 
+
 <script>
-    export default {
-        
+  export default {
+    data() {
+      return {
+        // currentLanguage: this.$i18n.locale
+      };
+    },
+    computed: {
+      currentLanguage() {
+        // return this.$i18n.locale();
+      }
     }
+  };
 </script>
+  
 
 <style scoped>
-.Poppins {
-    font-family: 'Poppins', sans-serif;
-    }
+.masthead {
+      padding: 3rem 0 7rem;
+      position: relative;
+      background-size:100%;
+      background-image: url('/images/background/Landing Hero Section.jpg');
+      z-index: 0
+  }
 
-    .Roboto {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
-    }
 
-    .Worksans {
-    font-family: 'Work Sans', sans-serif;
-    }
+  @media (max-width: 500px) {
+       .masthead {
+        background-image: url('/images/background/BG-HP.jpg');
+       }
+        
+      }
+  
+  .masthead svg.wave {
+      position: absolute;
+      bottom: -1px;
+      background-color: #f6eec900;
+      left: 0
+  }
+  
+  .masthead h1 {
+      color: #931A25;
+      font-weight: 700;
+      font-size: 2rem;
+      line-height: 1.1;
+      z-index: 1
+  }
+  
+  .masthead h2 {
+      color: #931A25;
+      font-weight: 600;
+      z-index: 1;
+      font-size: 1.2rem
+  }
+  
+  
+  @media(min-width:992px) {
+      .masthead h1 {
+          font-size: 3rem
+      }
+      .masthead h2 {
+          font-size: 1.5rem
+      }
+  }
+  
+  
+  
+  .masthead .masthead-cards .shape {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(255, 255, 255, .3);
+      top: 0;
+      left: 0;
+      z-index: -1;
+      border-radius: 30% 70% 70% 30%/30% 30% 70% 70%
+  }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <AgencyNavAgency />
+        <NavAgency />
     </div>
 </template>
 
@@ -8,7 +8,9 @@
 
     
 export default {
-        
+    head : {
+            title: 'Agency | Devavrata Sinergi Indonesia',
+        }
     }
 </script>
 
