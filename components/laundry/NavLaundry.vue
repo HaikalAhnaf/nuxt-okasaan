@@ -27,7 +27,7 @@
                     <div class="ag-courses_box">
                       
                       <div class="ag-courses_item">
-                        <NuxtLink to="/laundry/Okaasan" style="text-decoration: none;" class="ag-courses-item_link">
+                        <NuxtLink :to='`/${$i18n.locale}/laundry/Okaasan`' style="text-decoration: none;" class="ag-courses-item_link">
                           <div class="ag-courses-item_bg"></div>        
                           <div class="ag-courses-item_title Roboto d-flex align-items-center text-uppercase">
                             {{ $t('LaundryIndexBox1') }}
@@ -39,7 +39,7 @@
                       </div>
                   
                       <div class="ag-courses_item">
-                        <NuxtLink to="/laundry/Training" style="text-decoration: none;" class="ag-courses-item_link">
+                        <NuxtLink  :to='`/${$i18n.locale}/laundry/Training`' style="text-decoration: none;" class="ag-courses-item_link">
                           <div class="ag-courses-item_bg"></div>                 
                           <div class="ag-courses-item_title Roboto d-flex align-items-center text-uppercase">
                             {{ $t('LaundryIndexBox2') }}
@@ -58,7 +58,7 @@
                     <div class="ag-courses_box">
                       
                       <div class="ag-courses_item">
-                        <NuxtLink to="/laundry/LaundryEquipmentDanSupplies" style="text-decoration: none;" class="ag-courses-item_link">
+                        <NuxtLink :to='`/${$i18n.locale}/laundry/LaundryEquipmentDanSupplies`' style="text-decoration: none;" class="ag-courses-item_link">
                           <div class="ag-courses-item_bg"></div>       
                           <div class="ag-courses-item_title Roboto d-flex align-items-center text-uppercase">
                             {{ $t('LaundryIndexBox3') }}
@@ -70,7 +70,7 @@
                       </div>
                   
                       <div class="ag-courses_item">
-                        <NuxtLink to="/laundry/Wimala" style="text-decoration: none;" class="ag-courses-item_link">
+                        <NuxtLink :to='`/${$i18n.locale}/laundry/Wimala`' style="text-decoration: none;" class="ag-courses-item_link">
                           <div class="ag-courses-item_bg"></div>                
                           <div class="ag-courses-item_title Roboto d-flex align-items-center text-uppercase">
                             {{ $t('LaundryIndexBox4') }}

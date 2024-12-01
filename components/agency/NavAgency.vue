@@ -1,17 +1,17 @@
 <template>
     <div>
-        <section class="py-5" lc-helper="background" style="background:linear-gradient(180deg, rgba(19, 16, 34, 0.58) 0%, rgba(19, 16, 34, 0.78) 100%), url('/images/Agency_LP.jpg')  center / cover no-repeat;">
+        <section class="py-5" lc-helper="background" style="background:linear-gradient(180deg, rgba(19, 16, 34, 0.15) 0%, rgba(19, 16, 34, 0.25) 100%), url('/images/backgroundagency.jpg')  center / cover no-repeat;">
       <div class="container">
           <div class="row justify-content-center">
               <div class="col-md-12 col-xxl-6">
-                  <div class="lc-block text-white mb-5">
+                  <div class="lc-block text-black mb-5">
                       <div editable="rich">
-                          <h1 class="display-4 fw-bold text-center Roboto">{{ $t('AgencyIndexJudul') }}</h1>
+                          <h1 class="display-4 fw-bold text-center text-dark Roboto">{{ $t('AgencyIndexJudul') }}</h1>
                       </div>
                   </div><!-- /lc-block -->
                   <div class="lc-block mb-8">
                       <div editable="rich">
-                          <p class="text-center rfs-9 text-light Poppins h5">{{ $t('AgencyIndexText') }}</p>
+                          <p class="text-center rfs-9 text-dark Poppins h5">{{ $t('AgencyIndexText') }}</p>
                       </div>
                   </div><!-- /lc-block -->
               </div><!-- /col -->
@@ -23,13 +23,13 @@
 
 
           <!-- Okaasan --> 
-              <div class="container" id="km">
+          <div class="container" id="km">
                 <div class="row d-flex justify-content-center">
                   <div class="ag-format-container">
                     <div class="ag-courses_box">
                       
                       <div class="ag-courses_item">
-                        <NuxtLink to="/agency/Event" style="text-decoration: none;" class="ag-courses-item_link">
+                        <NuxtLink :to='`/${$i18n.locale}/agency/Event`' style="text-decoration: none;" class="ag-courses-item_link">
                           <div class="ag-courses-item_bg"></div>
         
                           <div class="ag-courses-item_title Roboto d-flex align-items-center text-uppercase">
@@ -43,11 +43,25 @@
                       </div>
                   
                       <div class="ag-courses_item">
-                        <NuxtLink to="/agency/StrategicMarketing" style="text-decoration: none;" class="ag-courses-item_link">
+                        <NuxtLink :to='`/${$i18n.locale}/agency/StrategicMarketing`' style="text-decoration: none;" class="ag-courses-item_link">
                           <div class="ag-courses-item_bg"></div>
         
                           <div class="ag-courses-item_title Roboto d-flex align-items-center text-uppercase">
                             {{ $t('AgencyIndexBox2') }}
+                          </div>
+                  
+                          <div class="ag-courses-item_date-box">
+
+                          </div>
+                        </NuxtLink>
+                      </div>
+
+                      <div class="ag-courses_item">
+                        <NuxtLink :to='`/${$i18n.locale}/agency/ResearchMarketing`' style="text-decoration: none;" class="ag-courses-item_link">
+                          <div class="ag-courses-item_bg"></div>
+        
+                          <div class="ag-courses-item_title Roboto d-flex align-items-center text-uppercase">
+                            {{ $t('AgencyIndexBox3') }}
                           </div>
                   
                           <div class="ag-courses-item_date-box">
@@ -61,6 +75,106 @@
                   </div>
                 </div>
               </div>
+              
+              <!-- Grid row -->
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="lc-block text-black">
+                      <div editable="rich">
+                          <h4 class="display-6 fw-bold text-start text-dark Roboto">{{ $t('AgencyIndexSubJudul') }}</h4>
+                      </div>
+              </div><!-- /col -->
+          </div>
+              <div class="row mt-3">
+                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                      <div class="lc-block">
+                          <img class="img-fluid" src="/images/footer/Okasaan_Transparan.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
+                      </div><!-- /lc-block -->
+                  </div><!-- /col -->
+                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                      <div class="lc-block">
+                          <img class="img-fluid" src="/images/footer/Wimala_Transapran.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
+                      </div><!-- /lc-block -->
+                  </div><!-- /col -->
+                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                      <div class="lc-block">
+                          <img class="img-fluid" src="/images/footer/Alliance.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
+                      </div><!-- /lc-block -->
+                  </div><!-- /col -->
+                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                  <div class="lc-block">
+                      <img class="img-fluid" src="/images/footer/SHARP.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
+                  </div><!-- /lc-block -->
+                </div><!-- /col -->
+                <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                  <div class="lc-block">
+                      <img class="img-fluid" src="/images/footer/PRIMUS.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
+                  </div><!-- /lc-block -->
+                </div><!-- /col -->
+                <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                  <div class="lc-block">
+                      <img class="img-fluid" src="/images/footer/Electrolux.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
+                  </div><!-- /lc-block -->
+                </div><!-- /col -->
+                <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                  <div class="lc-block">
+                      <img class="img-fluid" src="/images/footer/electroniccity.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
+                  </div><!-- /lc-block -->
+                </div><!-- /col -->
+              <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                  <div class="lc-block">
+                      <img class="img-fluid" src="/images/sm/Pertamina.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
+                  </div>
+              </div>
+              </div>
+                <div class="row mb-3">
+                    <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                        <div class="lc-block"><NuxtLink to="../Laundry/Okaasan">
+                            <img class="img-fluid" src="/images/footer/AQUA.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
+                        </NuxtLink></div><!-- /lc-block -->
+                    </div><!-- /col -->
+                    <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                        <div class="lc-block"><NuxtLink to="../Laundry/Wimala">
+                            <img class="img-fluid" src="/images/footer/BEKO.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
+                        </NuxtLink></div><!-- /lc-block -->
+                    </div><!-- /col -->
+                    <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                        <div class="lc-block">
+                            <img class="img-fluid" src="/images/footer/BOSCH.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
+                        </div><!-- /lc-block -->
+                    </div><!-- /col -->
+                    <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                        <div class="lc-block">
+                            <img class="img-fluid" src="/images/footer/KANGAROO.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
+                        </div><!-- /lc-block -->
+                    </div><!-- /col -->
+                    <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                    <div class="lc-block">
+                        <img class="img-fluid" src="/images/sm/Bibit.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
+                    </div><!-- /lc-block -->
+                  </div><!-- /col -->
+                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                    <div class="lc-block">
+                        <img class="img-fluid" src="/images/sm/BPJS.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
+                    </div><!-- /lc-block -->
+                  </div><!-- /col -->
+                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                    <div class="lc-block">
+                        <img class="img-fluid" src="/images/sm/BRI.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
+                    </div><!-- /lc-block -->
+                  </div><!-- /col -->
+                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                    <div class="lc-block">
+                        <img class="img-fluid" src="/images/sm/Lazada.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
+                    </div><!-- /lc-block -->
+                  </div><!-- /col -->
+                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                    <div class="lc-block">
+                        <img class="img-fluid" src="/images/sm/SpeedQueen.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
+                    </div><!-- /lc-block -->
+                  </div><!-- /col -->
+                </div>
+            </div>
             </section>
     </div>
 </template>
@@ -123,8 +237,8 @@
   padding: 50px 0;
 }
 .ag-courses_item {
-  -ms-flex-preferred-size: calc(50% - 30px);
-  flex-basis: calc(50% - 30px);
+  -ms-flex-preferred-size: calc(33.3333333333% - 30px);
+  flex-basis: calc(33.3333333333% - 30px);
 
   margin: 0 15px 30px;
 
@@ -206,8 +320,8 @@
 
 @media only screen and (max-width: 979px) {
   .ag-courses_item {
-    -ms-flex-preferred-size: calc(50% - 30px);
-    flex-basis: calc(50% - 30px);
+    -ms-flex-preferred-size: calc(33.3333333333% - 30px);
+    flex-basis: calc(33.3333333333% - 30px);
   }
   .ag-courses-item_title {
     font-size: 24px;

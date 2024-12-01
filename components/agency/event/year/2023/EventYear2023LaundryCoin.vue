@@ -80,13 +80,13 @@
         ],
 
         image4: [
-          { src: '/images/als/IMG_1734.JPG', alt: 'Image 4' },
+          { src: '/images/als/IMG_1734.jpg', alt: 'Image 4' },
           
           // Add more images as needed
         ],
 
         image5: [
-          { src: '/images/als/IMG_1989.JPG', alt: 'Image 5' },
+          { src: '/images/als/IMG_1989.jpg', alt: 'Image 5' },
           
           // Add more images as needed
         ]

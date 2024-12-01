@@ -32,7 +32,7 @@
 
         <section>
           <div>
-            <img src="/images/perlengkapan/laundrysupplies/SOLASI.png" alt="" srcset="" class="img-fluid">
+            <img src="/images/perlengkapan/laundrysupplies/solasi.png" alt="" srcset="" class="img-fluid">
             <p class="Poppins text-center">{{$t('LaundryEquipmentDanSuppliesSubJudul2Product4')}}</p>
           </div>
         </section>

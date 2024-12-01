@@ -25,7 +25,7 @@
               <div class="col-6 col-md-7 col-lg-6">
                 <div class="product-wrapper mb-45 text-center Poppins">
                   <div class="product-img">
-                    <a href="https://www.tokopedia.com/okaasanhouse/sabun-mandi-organik-mawar-500-ml-03ac6?extParam=src%3Dshop%26whid%3D9540592" target="_blank" data-abc="true">
+                    <a href="https://www.tokopedia.com/okaasanhouse/sabun-mandi-cair-organik-mawar-250-ml-9a559?extParam=src%3Dshop%26whid%3D9540592" target="_blank" data-abc="true">
                       <img src="/images/wimala/SabunMandi.JPG" class="rounded-3 w-100" alt="icon" />
                     </a>
                     <span class="text-center">{{$t('LaundryWimalaSabunMandiJudulGambar1')}}</span>
@@ -34,7 +34,7 @@
                         <a
                         class="action-cart"
                         title="Add To Cart" 
-                        href="https://www.tokopedia.com/okaasanhouse/sabun-mandi-organik-mawar-500-ml-03ac6?extParam=src%3Dshop%26whid%3D9540592" target="_blank">
+                        href="https://www.tokopedia.com/okaasanhouse/sabun-mandi-cair-organik-mawar-250-ml-9a559?extParam=src%3Dshop%26whid%3D9540592" target="_blank">
                         <img src="/images/trolley.png" alt="icon" width="32px" height="32px">
                       </a>
                       </div>

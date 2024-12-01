@@ -4,7 +4,7 @@
 
   "Halamanindex" : "Home",
   "indexJudul": "Devavrata Sinergi Indonesia",
-  "indexQuotes": "We make sure that we are not only doing it right, but we give you a solutions for your Laundry Business",
+  "indexQuotes": "We ensure it's done right while offering solutions for your laundry business.",
   "indexVisi": "Our Vision",
   "indexMisi": "Our Mission",
   "indexIsiVisi" : "Become a well-known comprehensive laundry system company which held fine quality of services",
@@ -17,7 +17,7 @@
   "HalamanKontakKami" : "Contact Us",
   "KontakKamiJudul" : "Contact Us",
   "KontakKamiJudulAlamat" : "Head Office :",
-  "KontakKamiAlamat" : "Perumah Trans Depok Cyber Blok A7 Jalan Kalimulya, Jawa Barat, Depok, Indonesia, 16413",
+  "KontakKamiAlamat" : "Perumahan Trans Depok Cyber Blok A7 Jalan Kalimulya, Jawa Barat, Depok, Indonesia, 16413",
   "KontakKamiJudulEmail" : "Email :",
   "KontakKamiEmail1" : "deva@devavrata.co.id",
   "KontakKamiEmail2" : "meilianti@devavrata.co.id",
@@ -90,7 +90,7 @@
   "LaundryEquipmentDanSuppliesSubJudul2Product7" : "Parfum",
   "LaundryEquipmentDanSuppliesSubJudul2Product8" : "Chemical",
   "LaundryEquipmentDanSuppliesSubJudul2Product9" : "Spray Bottle",
-  "LaundryEquipmentDanSuppliesSubJudul3" : "Washing Machine",
+  "LaundryEquipmentDanSuppliesSubJudul3" : "Washing Machine & Dryer",
   "LaundryEquipmentDanSuppliesSubJudul3Product1" : "Single Dryer",
   "LaundryEquipmentDanSuppliesSubJudul3Product2" : "Top Load Washer",
   "LaundryEquipmentDanSuppliesSubJudul3Product3" : "Front Load Washer",
@@ -100,6 +100,9 @@
   "LaundryEquipmentDanSuppliesSubJudul3Product7" : "Tumble Dryers",
   "LaundryEquipmentDanSuppliesSubJudul3Product8" : "Hardmount Washer - Extractor",
   "LaundryEquipmentDanSuppliesSubJudul3Product9" : "Stacked Washer Dryer",
+  "LaundryEquipmentDanSuppliesSubJudul4" : "Business Packages & Catalogues",
+  "LaundryEquipmentDanSuppliesSubJudul4Product1" : "Business Packages",
+  "LaundryEquipmentDanSuppliesSubJudul4Product2" : "Catalogues",
 
   "HalamanLaundryWimala" : "Wimala",
   "LaundryWimalaJudul" : "Product Wimala",
@@ -156,13 +159,19 @@
 
   "HalamanAgencyIndex" : "Agency",
   "AgencyIndexJudul" : "Agency",
+  "AgencyIndexSubJudul" : "Our Clients :",
   "AgencyIndexText" : "Learn more about our events and our strategic marketing agency.",
   "AgencyIndexBox1" : "Event",
   "AgencyIndexBox2" : "Strategic Marketing",
+  "AgencyIndexBox3" : "Research Marketing",
 
   "HalamanAgencyEvent" : "Event",
   "AgencyEventJudul" : "Event Devavrta Sinergi",
   "AgencyEventText" : "Gallery of Devavrata events through years.",
+  "AgencyEventTahun2024" : "2024",
+  "AgencyEventTahun2024Event1" : "Laundry Expo Singapore",
+  "AgencyEventTahun2024Event2" : "Laundry Expo Indonesia",
+  "AgencyEventTahun2024Event3" : "Laundry Expo Jepang",
   "AgencyEventTahun2023" : "2023",
   "AgencyEventTahun2023Event1" : "Laundry Coin - Yokohama, Japan",
   "AgencyEventTahun2023Event2" : "Kejaksaan Agung",
@@ -183,7 +192,7 @@
 
   "HalamanAgencyStrategicMarketingSocialMedia" : "Social Media",
   "AgencyStrategicMarketingSocialMediaNamaWebsite" : "Devavrata Sinergi Indonesia",
-  "AgencyStrategicMarketingSocialMediaJudul" : "Sosial Media Management",
+  "AgencyStrategicMarketingSocialMediaJudul" : "Social Media Management",
   "AgencyStrategicMarketingSocialMediaText" : "Everyday people spend hours on their phone and through this millennial era, many decisions are made based on what customer see on social media.",
   "AgencyStrategicMarketingSocialMediaSubJudul1" : "Our Coverage",
   "AgencyStrategicMarketingSocialMediaCard1" : "Serve the best visual appearance through design.",
@@ -218,7 +227,15 @@
   "AgencyStrategicMarketingWebsiteNamaWebsite" : "Devavrata Sinergi Indonesia",
   "AgencyStrategicMarketingWebsiteJudul" : "Website Development",
   "AgencyStrategicMarketingWebsiteText" : "We help our clients to set up and maintain their website, that also includes design, UI/UX, content writing, optimize search, and more.",
-  "AgencyStrategicMarketingWebsiteSubJudul" : "Our Latest Project",
-  "AgencyStrategicMarketingWebsiteProject1Text" : "PT. STRAITS LAUNDRY INDONESIA is a distributor appointed by Alliance Laundry System LLC, USA in Indonesia as a provider of laundry equipment & spare parts. We sell Primus brand laundry machines and offer Laundromat business packages with leading laundry machines in its class: Primus."
+  "AgencyStrategicMarketingWebsiteSubJudul" : "Our Portfolios",
+  "AgencyStrategicMarketingWebsiteProject1Text" : "PT. STRAITS LAUNDRY INDONESIA is a distributor appointed by Alliance Laundry System LLC, USA in Indonesia as a provider of laundry equipment & spare parts. We sell Primus brand laundry machines and offer Laundromat business packages with leading laundry machines in its class: Primus.",
   
+  "HalamanAgencyResearchMarketing" : "Research Marketing",
+  "AgencyResearchMarketingJudul" : "Research Marketing",
+  "AgencyResearchMarketingText" : "Focuses on gathering data and insights, such as understanding customer needs, market trends, and competitor analysis. With this research, PT Devavrata can design more effective communication strategies, ensuring that each laundry service reaches the right target market, ultimately driving revenue and profitability for the outlets.",
+  "AgencyResearchMarketing1" : "Demographic",
+  "AgencyResearchMarketing2" : "Geographic",
+  "AgencyResearchMarketing1Text" : "This text here",
+  "AgencyResearchMarketing2Text" : "This text here"
+
 }

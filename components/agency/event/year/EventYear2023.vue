@@ -7,7 +7,7 @@
                 <h2 editable="inline" class="display-6 mb-0 Roboto"><b>{{ $t('AgencyEventTahun2023') }}</b></h2>
               </button>
             </h2>
-            <div id="flush-collapseOneX" class="accordion-collapse collapse show"
+            <div id="flush-collapseOneX" class="accordion-collapse collapse"
               aria-labelledby="flush-headingOneOneX" data-bs-parent="#accordionFlushExampleX">
               <div class="accordion-body">
                 <div class="accordion accordion-borderless" id="accordionFlushExampleXX">

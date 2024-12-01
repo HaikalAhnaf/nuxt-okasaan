@@ -4,7 +4,7 @@
         <Slider1LaundryEquipmentDanSupplies />
         <Slider2LaundryEquipmentDanSupplies />
         <Slider3LaundryEquipmentDanSupplies />
-
+        <Slider4LaundryEquipmentDanSupplies />
     </div>
 </template>
 

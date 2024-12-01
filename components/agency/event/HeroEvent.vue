@@ -2,7 +2,7 @@
     <div>
     <section class="outter hero-video">
       <section class="video-container">
-        <video src="/images/als/video6266934360964860958.mp4" autoplay loop playsinline muted></video>
+        <video src="/images/als/video6224028724304548361.mp4" autoplay loop playsinline muted></video>
           <div class="callout">
             <h1 class="display-4 fw-bold text-center Roboto text-uppercase">{{ $t('AgencyEventJudul') }}</h1>
             <div class="text-center rfs-9 text-light Poppins">{{ $t('AgencyEventText') }}</div>

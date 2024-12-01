@@ -1,8 +1,8 @@
 <template>
     <div>
         <div class="card-group" style="background-color: #F8EEE2;">
-            <div class="card border-0 rounded-0 shadow-0" style="background-image: url('/images/background/Background2.jpg'); background-size: cover;">
-            <NuxtLink to="/Laundry">
+            <div class="card border-0 rounded-0 shadow-0" style="background:linear-gradient(180deg, rgba(147, 26, 37, 0.15) 0%, rgba(147, 26, 37, 0.25) 100%), url('/images/imgdry.jpg')  center / cover no-repeat;">
+            <NuxtLink :to='`/${$i18n.locale}/laundry`'>
             <div class="card-body Poppins text-center py-5">
                 <h5 class="card-title p-5 text-white text-uppercase display-5 fw-bold Roboto">{{ $t('indexJudulCard1') }}</h5>
                 <p class="card-text text-white pb-5 Poppins">
@@ -14,8 +14,8 @@
         </div>
 
         <div class="card-group" style="background-color: #F8EEE2;">
-            <div class="card border-0 rounded-0 shadow-0" style="background-image: url('/images/background/Background1.jpg'); background-size: cover;">
-            <NuxtLink to="/Agency">
+            <div class="card border-0 rounded-0 shadow-0" style="background:linear-gradient(180deg, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0.65) 100%), url('/images/imgagc.jpg')  center / cover no-repeat;">
+            <NuxtLink :to='`/${$i18n.locale}/Agency`'>
             <div class="card-body Poppins text-center py-5" style="color: #931A25;">
                 <h5 class="card-title p-5 text-uppercase display-5 fw-bold Roboto">{{ $t('indexJudulCard2') }}</h5>
                 <p class="card-text pb-5 Poppins">
