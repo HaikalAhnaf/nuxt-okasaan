@@ -12,7 +12,7 @@
               <div class="accordion-body">
                 <div class="accordion accordion-borderless" id="accordionFlushExampleXX">
                   <EventYear2023LaundryCoin />
-                  <EventYear2023KejaksaanAgung />
+                  <EventYear2023LaundryKejaksaan />
                   <EventYear2023LaundryExpo />
                 </div>
               </div>

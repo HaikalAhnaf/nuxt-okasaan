@@ -17,8 +17,8 @@
         </section>
         <section>
           <div class="h-100">
-            <a href="/images/perlengkapan/Katalog Expo Laundry 2024 (FINAL WEB).pdf">
-            <img src="/images/perlengkapan/covekatalog.jpg" alt="" srcset="" class="img-fluid">
+            <a href="/images/perlengkapan/Katalog Expo Laundry 2024 (FINAL WEB).pdf" target="_blank">
+            <img src="/images/perlengkapan/covekatalog.jpg" alt="" srcset="" class="img-fluid" target="_blank">
             <p class="Poppins text-center py-2">{{$t('LaundryEquipmentDanSuppliesSubJudul4Product2')}}</p>
             </a>
           </div>

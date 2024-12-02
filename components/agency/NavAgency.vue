@@ -88,12 +88,12 @@
               <div class="row mt-3">
                   <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
                       <div class="lc-block">
-                          <img class="img-fluid" src="/images/footer/Okasaan_Transparan.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
+                        <NuxtLink :to='`/${$i18n.locale}/laundry/Okaasan`'> <img class="img-fluid" src="/images/footer/Okasaan_Transparan.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image"></NuxtLink>
                       </div><!-- /lc-block -->
                   </div><!-- /col -->
                   <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
                       <div class="lc-block">
-                          <img class="img-fluid" src="/images/footer/Wimala_Transapran.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
+                          <NuxtLink :to='`/${$i18n.locale}/laundry/Wimala`'><img class="img-fluid" src="/images/footer/Wimala_Transapran.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image"></NuxtLink>
                       </div><!-- /lc-block -->
                   </div><!-- /col -->
                   <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
@@ -124,6 +124,11 @@
               <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
                   <div class="lc-block">
                       <img class="img-fluid" src="/images/sm/Pertamina.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
+                  </div>
+              </div>
+              <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                  <div class="lc-block">
+                      <img class="img-fluid" src="/images/sm/LG.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
                   </div>
               </div>
               </div>

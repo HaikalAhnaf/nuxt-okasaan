@@ -120,6 +120,8 @@ export default {
       '~/components/agency/strategicmarketing/produksifotodanvideo',
       '~/components/agency/strategicmarketing/website',
       '~/components/agency/researchmarketing',
+      '~/components/agency/researchmarketing/demographic',
+      '~/components/agency/researchmarketing/geographic',
       '~/components/laundry',
       '~/components/laundry/okaasan',
       '~/components/laundry/wimala',
