@@ -18,11 +18,11 @@
                           </div>
                    
                            
-                          <div class="col-lg-6 col-md-6 col-xs-6 thumb">
+                          <!-- <div class="col-lg-6 col-md-6 col-xs-6 thumb">
                             <a v-for="(image, index) in image2" :key="index" :href="image.src" data-fancybox="gallery">
                               <img :src="image.src" :alt="image.alt" class="zoom img-fluid ">
                             </a>
-                          </div>
+                          </div> -->
                            
                           <div class="col-lg-6 col-md-6 col-xs-6 thumb">
                             <a v-for="(image, index) in image3" :key="index" :href="image.src" data-fancybox="gallery">
@@ -53,11 +53,11 @@
           // Add more images as needed
         ],
     
-        image2: [
-          { src: '/images/als/23-KA-2.jpg', alt: 'Image 2' },
+        // image2: [
+        //   { src: '/images/als/23-KA-2.jpg', alt: 'Image 2' },
           
-          // Add more images as needed
-        ],
+        //   // Add more images as needed
+        // ],
 
         image3: [
           { src: '/images/als/23-KA-3.jpg', alt: 'Image 3' },
