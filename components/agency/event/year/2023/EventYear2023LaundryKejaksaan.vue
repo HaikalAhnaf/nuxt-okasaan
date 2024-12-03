@@ -3,50 +3,38 @@
         <div class="accordion-item border-0 " style="background: transparent;">
                     <h2 class="accordion-header" id="flush-headingOneThreeX">
                       <button data-bs-collapse-init class="accordion-button collapsed text-black" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseOneThreeX" aria-expanded="false" aria-controls="flush-collapseOneThreeX" style="background: transparent;">
+                        data-bs-target="#flush-collapse23KA" aria-expanded="false" aria-controls="flush-collapseOneThreeX" style="background: transparent;">
                         <h4 editable="inline" class="mb-0 Roboto text-uppercase"><b>{{ $t('AgencyEventTahun2023Event2') }}</b></h4>
                       </button>
                     </h2>
-                    <div id="flush-collapseOneThreeX" class="accordion-collapse collapse" aria-labelledby="flush-headingOneThreeX"
+                    <div id="flush-collapse23KA" class="accordion-collapse collapse" aria-labelledby="flush-headingOneThreeX"
                       data-bs-parent="#accordionFlushExampleXX">
                       <div class="accordion-body">
                         <div class="row d-flex justify-content-center">
-                          <div class="col-lg-4 col-md-4 col-xs-6 thumb ">
+                          <div class="col-lg-6 col-md-6 col-xs-6 thumb ">
                             <a v-for="(image, index) in image1" :key="index" :href="image.src" data-fancybox="gallery">
                                 <img :src="image.src" :alt="image.alt" class="zoom img-fluid ">
                             </a>
                           </div>
                    
                            
-                          <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                          <div class="col-lg-6 col-md-6 col-xs-6 thumb">
                             <a v-for="(image, index) in image2" :key="index" :href="image.src" data-fancybox="gallery">
                               <img :src="image.src" :alt="image.alt" class="zoom img-fluid ">
                             </a>
                           </div>
                            
-                          <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                          <div class="col-lg-6 col-md-6 col-xs-6 thumb">
                             <a v-for="(image, index) in image3" :key="index" :href="image.src" data-fancybox="gallery">
                               <img :src="image.src" :alt="image.alt" class="zoom img-fluid ">
                             </a>
                           </div>
 
-                          <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                          <div class="col-lg-6 col-md-6 col-xs-6 thumb">
                             <a v-for="(image, index) in image4" :key="index" :href="image.src" data-fancybox="gallery">
                                 <img :src="image.src" :alt="image.alt" class="zoom img-fluid ">
                             </a>
                           </div>
-
-                          <div class="col-lg-4 col-md-4 col-xs-6 thumb">
-                            <a v-for="(image, index) in image5" :key="index" :href="image.src" data-fancybox="gallery">
-                              <img :src="image.src" :alt="image.alt" class="zoom img-fluid ">
-                            </a>
-                          </div>
-                           
-                          <!-- <div class="col-lg-4 col-md-4 col-xs-6 thumb">
-                            <a v-for="(image, index) in image6" :key="index" :href="image.src" data-fancybox="gallery">
-                              <img :src="image.src" :alt="image.alt" class="zoom img-fluid ">
-                            </a>
-                          </div> -->
                            
                         </div>
                 </div>
@@ -60,40 +48,28 @@
     data() {
       return {
         image1: [
-          { src: '/images/als/kejaksaan1 (1).jpeg', alt: 'Image 1' },
+          { src: '/images/als/23-KA-1.jpg', alt: 'Image 1' },
           
           // Add more images as needed
         ],
     
         image2: [
-          { src: '/images/als/kejaksaan2 (1).jpeg', alt: 'Image 2' },
+          { src: '/images/als/23-KA-2.jpg', alt: 'Image 2' },
           
           // Add more images as needed
         ],
 
         image3: [
-          { src: '/images/als/kejaksaan3.jpeg', alt: 'Image 3' },
+          { src: '/images/als/23-KA-3.jpg', alt: 'Image 3' },
           
           // Add more images as needed
         ],
 
         image4: [
-          { src: '/images/als/kejaksaan4.jpeg', alt: 'Image 4' },
+          { src: '/images/als/23-KA-4.jpg', alt: 'Image 4' },
           
           // Add more images as needed
         ],
-
-        image5: [
-          { src: '/images/als/kejaksaan5.jpeg', alt: 'Image 5' },
-          
-          // Add more images as needed
-        ],
-
-        // image6: [
-        //   { src: '/images/als/GEE_5307.jpg', alt: 'Image 6' },
-          
-        //   // Add more images as needed
-        // ]
       }
     }
   }

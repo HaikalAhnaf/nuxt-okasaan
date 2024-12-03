@@ -19,8 +19,8 @@
                         </div>
                         <div class="lc-block mb-4">
                             <div editable="rich">
-                                <h1 class="display-5 fw-bold Roboto">{{ $t('AgencyStrategicMarketingSocialMediaJudul') }}</h1>
-                                <p class="text-muted Poppins">{{ $t('AgencyStrategicMarketingSocialMediaText') }}</p>
+                                <h1 class="display-5 fw-bold Roboto">{{ $t('AgencyResearchMarketingGeographicJudul') }}</h1>
+                                <p class="text-muted Poppins">{{ $t('AgencyResearchMarketingGeographicText') }}</p>
                                 <div class="lc-block flex-shrink-0  mb-4">
                                     <a class="btn text-white btn-lg" style="background-color: #931A25;" href="#features" role="button" lc-helper="button">DETAILS</a>
                                 </div>

@@ -1,5 +1,5 @@
 <template>
-    <div style="background-image: url('/images/background/Background2.jpg');background-size: cover;" class="pb-5">
+    <div style="background-image: url('/images/background/Background3.jpg');background-size: cover;" class="pb-5">
         <HeroLaundryEquipmentDanSupplies />
         <Slider1LaundryEquipmentDanSupplies />
         <Slider2LaundryEquipmentDanSupplies />

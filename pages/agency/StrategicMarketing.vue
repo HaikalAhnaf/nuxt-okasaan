@@ -1,5 +1,5 @@
 <template>
-    <div style="background-image: url('/images/background/HP-BGW.jpg');background-size: cover;">
+    <div style="background-color: lightyellow;">
         <HeroStrategicMarketing />
         <CardStrategicMarketing />
     </div>

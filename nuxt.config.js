@@ -89,6 +89,7 @@ export default {
     '~/assets/css/floating-wpp.css',
     '~/assets/css/style.css',
     '~/assets/css/swiper-bundle.css',
+    'bootstrap-icons/font/bootstrap-icons.css',
     "bootstrap/dist/css/bootstrap.css"
     
   ],
