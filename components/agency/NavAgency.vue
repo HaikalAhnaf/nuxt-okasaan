@@ -86,94 +86,92 @@
               </div><!-- /col -->
           </div>
               <div class="row mt-3">
-                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg-2 d-flex align-items-center">
                       <div class="image-container">
                         <NuxtLink :to='`/${$i18n.locale}/laundry/Okaasan`'> <img class="img-fluid" src="/images/footer/Okasaan_Transparan.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image"></NuxtLink>
                       </div><!-- /lc-block -->
                   </div><!-- /col -->
-                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg-2 d-flex align-items-center">
                       <div class="image-container">
                           <NuxtLink :to='`/${$i18n.locale}/laundry/Wimala`'><img class="img-fluid" src="/images/footer/Wimala_Transapran.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image"></NuxtLink>
                       </div><!-- /lc-block -->
                   </div><!-- /col -->
-                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg-2 d-flex align-items-center">
                       <div class="image-container">
                           <img class="img-fluid" src="/images/footer/Alliance.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
                       </div><!-- /lc-block -->
                   </div><!-- /col -->
-                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg-2 d-flex align-items-center">
                   <div class="image-container">
                       <img class="img-fluid" src="/images/footer/SHARP.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
                   </div><!-- /lc-block -->
                 </div><!-- /col -->
-                <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg-2 d-flex align-items-center">
                   <div class="image-container">
                       <img class="img-fluid" src="/images/footer/PRIMUS.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
                   </div><!-- /lc-block -->
                 </div><!-- /col -->
-                <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg-2 d-flex align-items-center">
                   <div class="image-container">
                       <img class="img-fluid" src="/images/footer/Electrolux.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
                   </div><!-- /lc-block -->
                 </div><!-- /col -->
-                <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg-2 d-flex align-items-center">
                   <div class="image-container">
                       <img class="img-fluid" src="/images/footer/electroniccity.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
                   </div><!-- /lc-block -->
                 </div><!-- /col -->
-              <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+              <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg-2 d-flex align-items-center">
                   <div class="image-container">
                       <img class="img-fluid" src="/images/sm/Pertamina.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
                   </div>
               </div>
-              <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+              <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg-2 d-flex align-items-center">
                   <div class="image-container">
                       <img class="img-fluid" src="/images/sm/LG.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
                   </div>
               </div>
-              </div>
-                <div class="row mb-3">
-                    <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                    <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg-2 d-flex align-items-center">
                         <div class="image-container"><NuxtLink to="../Laundry/Okaasan">
                             <img class="img-fluid" src="/images/footer/AQUA.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
                         </NuxtLink></div><!-- /lc-block -->
                     </div><!-- /col -->
-                    <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                    <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg-2 d-flex align-items-center">
                         <div class="image-container"><NuxtLink to="../Laundry/Wimala">
                             <img class="img-fluid" src="/images/footer/BEKO.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
                         </NuxtLink></div><!-- /lc-block -->
                     </div><!-- /col -->
-                    <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                    <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg-2 d-flex align-items-center">
                         <div class="image-container">
                             <img class="img-fluid" src="/images/footer/BOSCH.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
                         </div><!-- /lc-block -->
                     </div><!-- /col -->
-                    <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                    <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg-2 d-flex align-items-center">
                         <div class="image-container">
                             <img class="img-fluid" src="/images/footer/KANGAROO.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
                         </div><!-- /lc-block -->
                     </div><!-- /col -->
-                    <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                    <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg-2 d-flex align-items-center">
                     <div class="image-container">
                         <img class="img-fluid" src="/images/sm/Bibit.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
                     </div><!-- /lc-block -->
                   </div><!-- /col -->
-                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg-2 d-flex align-items-center">
                     <div class="image-container">
                         <img class="img-fluid" src="/images/sm/BPJS.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
                     </div><!-- /lc-block -->
                   </div><!-- /col -->
-                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg-2 d-flex align-items-center">
                     <div class="image-container">
                         <img class="img-fluid" src="/images/sm/BRI.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
                     </div><!-- /lc-block -->
                   </div><!-- /col -->
-                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg-2 d-flex align-items-center">
                     <div class="image-container">
                         <img class="img-fluid" src="/images/sm/Lazada.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
                     </div><!-- /lc-block -->
                   </div><!-- /col -->
-                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg d-flex align-items-center">
+                  <div class="col-6 col-sm-3 mb-3 mb-lg-0 col-lg-2 d-flex align-items-center">
                     <div class="image-container">
                         <img class="img-fluid" src="/images/sm/SpeedQueen.png" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Lauren Edvalson" lc-helper="image">
                     </div><!-- /lc-block -->
