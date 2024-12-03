@@ -48,7 +48,7 @@
     data() {
       return {
         image1: [
-          { src: '/images/training/T1.jpg', alt: 'Image 1' },
+          { src: '/images/training/bgT.jpg', alt: 'Image 1' },
           
           // Add more images as needed
         ],

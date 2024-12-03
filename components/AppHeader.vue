@@ -26,10 +26,12 @@
                 <ul class="dropdown-menu dropdown-menu-dark  py-3 pe-4" style="background-color: #931A25;">
                   <li><NuxtLink class="dropdown-item" style="color: #fff;"  :to='`/${$i18n.locale}/agency/Event`'><img src="/images/nav/IconEventW.png" width="24" alt=""> {{$t('HalamanAgencyEvent')}}</NuxtLink></li>
                   <li><NuxtLink class="dropdown-item " style="color: #fff;" :to='`/${$i18n.locale}/agency/StrategicMarketing`'><img src="/images/nav/IconStrategicMW.png" width="24" alt=""> {{$t('HalamanAgencyStrategicMarketing')}}</NuxtLink></li>
-                  <li><NuxtLink class="dropdown-item " style="color: #fff;" :to='`/${$i18n.locale}/agency/ResearchMarketing`'><img src="/images/nav/rsc.png" width="24" alt=""> {{$t('HalamanAgencyResearchMarketing')}}</NuxtLink></li>
                   <li><NuxtLink class="dropdown-item " style="color: #fff;" :to='`/${$i18n.locale}/agency/strategicmarketing/SocialMedia`'><img src="/images/nav/IconSosmedW.png" width="24" alt=""> {{$t('HalamanAgencyStrategicMarketingSocialMedia')}}</NuxtLink></li>
                   <li><NuxtLink class="dropdown-item " style="color: #fff;" :to='`/${$i18n.locale}/agency/StrategicMarketing/ProduksiFotoDanVideo`'><img src="/images/nav/IconVideoPW.png" width="24" alt=""> {{$t('HalamanAgencyStrategicMarketingPhotodanVideoProduction')}}</NuxtLink></li>
                   <li><NuxtLink class="dropdown-item " style="color: #fff;" :to='`/${$i18n.locale}/agency/StrategicMarketing/Website`'><img src="/images/nav/IconWebsiteW.png" width="24" alt=""> {{$t('HalamanAgencyStrategicMarketingWebsite')}}</NuxtLink></li>
+                  <li><NuxtLink class="dropdown-item " style="color: #fff;" :to='`/${$i18n.locale}/agency/ResearchMarketing`'><img src="/images/nav/rsc.png" width="24" alt=""> {{$t('HalamanAgencyResearchMarketing')}}</NuxtLink></li>
+                  <li><NuxtLink class="dropdown-item " style="color: #fff;" :to='`/${$i18n.locale}/agency/ResearchMarketing/Demographic`'><img src="/images/nav/demow.png" width="24" alt=""> {{$t('HalamanAgencyResearchMarketingDemographic')}}</NuxtLink></li>
+                  <li><NuxtLink class="dropdown-item " style="color: #fff;" :to='`/${$i18n.locale}/agency/ResearchMarketing/Geographic`'><img src="/images/nav/geow.png" width="24" alt=""> {{$t('HalamanAgencyResearchMarketingGeographic')}}</NuxtLink></li>
                 </ul>
               </li>
               <li class="nav-item">

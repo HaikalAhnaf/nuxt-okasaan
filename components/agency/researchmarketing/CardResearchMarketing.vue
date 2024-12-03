@@ -5,7 +5,7 @@ x<template>
             <div class="row g-lg-5 mb-6 d-flex justify-content-center">
                 <div class="col-12 col-md-5 col-lg-5 pb-5">
                     <div class="lc-block mb-4"><NuxtLink :to='`/${$i18n.locale}/agency/researchmarketing/Demographic`'>
-                <img class="img-fluid rounded-2" src="/images/sm/imgcompressors-SosialMed.jpg" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Frédéric Perez">
+                <img class="img-fluid rounded-2" src="/images/sm/demoluar.jpg" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Frédéric Perez">
                 </NuxtLink></div><!-- /lc-block -->
                 <div class="lc-block">
                 <div editable="rich">
@@ -19,7 +19,7 @@ x<template>
                 </div>
                 <div class="col-12 col-md-5 col-lg-5 pb-5">
                     <div class="lc-block mb-4"><NuxtLink :to='`/${$i18n.locale}/agency/researchmarketing/Geographic`'>
-                        <img class="img-fluid rounded-2" src="/images/sm/imgcompressors-ProVid.jpg" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Frédéric Perez">
+                        <img class="img-fluid rounded-2" src="/images/sm/geoluar.jpg" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080" alt="Photo by Frédéric Perez">
                     </NuxtLink></div><!-- /lc-block -->
                     <div class="lc-block">
                         <div editable="rich">

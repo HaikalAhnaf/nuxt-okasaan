@@ -52,6 +52,12 @@
                     <p class="footer-text">
                     <NuxtLink :to='`/${$i18n.locale}/agency/StrategicMarketing/Website`' class="text-reset" style="text-decoration: none;">{{$t('HalamanAgencyStrategicMarketingWebsite')}}</NuxtLink>
                     </p>
+                    <p class="footer-text">
+                    <NuxtLink class="text-reset" style="text-decoration: none;" :to='`/${$i18n.locale}/agency/ResearchMarketing/Demographic`'>{{$t('HalamanAgencyResearchMarketingDemographic')}}</NuxtLink>
+                    </p>
+                    <p class="footer-text">
+                    <NuxtLink class="text-reset" style="text-decoration: none;" :to='`/${$i18n.locale}/agency/ResearchMarketing/Geographic`'>{{$t('HalamanAgencyResearchMarketingGeographic')}}</NuxtLink>
+                    </p>
 
 
                 </div>

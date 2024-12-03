@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="py-5" lc-helper="background" style="background:linear-gradient(180deg, rgba(19, 16, 34, 0.58) 0%, rgba(19, 16, 34, 0.78) 100%), url('/images/training/T1.jpg')  center / cover no-repeat;">
+        <section class="py-5" lc-helper="background" style="background:linear-gradient(180deg, rgba(19, 16, 34, 0.58) 0%, rgba(19, 16, 34, 0.78) 100%), url('/images/training/bgT.jpg')  center / cover no-repeat;">
             <div class="container py-5">
                 <div class="row justify-content-center py-5">
                     <div class="col-md-12 col-xxl-6 py-5">
