@@ -43,12 +43,61 @@
                           </div>
                            
                           <div class="col-lg-4 col-md-4 col-xs-6 thumb">
-                            <a href="/images/als/video6224028724304548361.mp4" class="fancybox" rel="ligthbox">
-                              <video class="zoom img-fluid" autoplay muted>
-                                <source src="/images/als/video6224028724304548361.mp4">
+                            <a href="https://drive.google.com/file/d/1hn1t96unMHxazwoDhjPsoD1iUHOSujRb/view?usp=drive_link" class="fancybox" rel="ligthbox" target="_blank">
+                              <video class="zoom img-fluid" autoplay muted controls poster="/images/als/24_Indo_1.jpg">
+                                <source src="https://drive.google.com/file/d/1hn1t96unMHxazwoDhjPsoD1iUHOSujRb/view?usp=drive_link" type="video/mp4">
+                                Video 1
                               </video>
                             </a>
-                           </div>
+                          </div>
+
+                          <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                            <a href="https://drive.google.com/file/d/1fczJbDw-TY9gQm3uwP4wmVJ8ASWA2te-/view?usp=drive_link" class="fancybox" rel="ligthbox" target="_blank">
+                              <video class="zoom img-fluid" autoplay muted controls poster="/images/als/Gerwyn.jpeg">
+                                <source src="https://drive.google.com/file/d/1fczJbDw-TY9gQm3uwP4wmVJ8ASWA2te-/view?usp=drive_link" type="video/mp4">
+                                Video 2
+                              </video>
+                            </a>
+                          </div>
+
+                          <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                            <a href="https://drive.google.com/file/d/1JuxjQxFpx4NAD8v-ME9p_WNfToswIA29/view?usp=drive_link" class="fancybox" rel="ligthbox" target="_blank">
+                              <video class="zoom img-fluid" autoplay muted controls poster="/images/als/Hendri.jpeg">
+                                <source src="https://drive.google.com/file/d/1JuxjQxFpx4NAD8v-ME9p_WNfToswIA29/view?usp=drive_link" type="video/mp4">
+                                Video 3
+                              </video>
+                            </a>
+                          </div>
+
+
+                          <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                            <a href="https://drive.google.com/file/d/1eJ8X7GjcKteVfbUwKBq48ZMt_kE6f3Ix/view?usp=drive_link" class="fancybox" rel="ligthbox" target="_blank">
+                              <video class="zoom img-fluid" autoplay muted controls poster="/images/als/Irwan.jpeg">
+                                <source src="https://drive.google.com/file/d/1eJ8X7GjcKteVfbUwKBq48ZMt_kE6f3Ix/view?usp=drive_link" type="video/mp4">
+                                Video 4
+                              </video>
+                            </a>
+                          </div>
+
+                          <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                            <a href="https://drive.google.com/file/d/1ozm0aaf9pKyz2hb5i1O8wkecuhnp61rG/view?usp=drive_link" class="fancybox" rel="ligthbox" target="_blank">
+                              <video class="zoom img-fluid" autoplay muted controls poster="/images/als/Lianto.jpeg">
+                                <source src="https://drive.google.com/file/d/1ozm0aaf9pKyz2hb5i1O8wkecuhnp61rG/view?usp=drive_link" type="video/mp4">
+                                Video 5
+                              </video>
+                            </a>
+                          </div>
+
+                          <div class="col-lg-4 col-md-4 col-xs-6 thumb">
+                            <a href="https://drive.google.com/file/d/1TjOtFjTwg6s4QN32gqjFZU90eBA5cIOw/view?usp=drive_link" class="fancybox" rel="ligthbox" target="_blank">
+                              <video class="zoom img-fluid" autoplay muted controls poster="/images/als/Saras_Vivi.jpeg">
+                                <source src="https://drive.google.com/file/d/1TjOtFjTwg6s4QN32gqjFZU90eBA5cIOw/view?usp=drive_link" type="video/mp4">
+                                Video 6
+                              </video>
+                            </a>
+                          </div>
+
+
                            
                         </div>
                       </div>

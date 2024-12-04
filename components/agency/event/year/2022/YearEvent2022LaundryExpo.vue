@@ -55,31 +55,31 @@
     data() {
       return {
         image1: [
-          { src: '/images/ALS/ANM_3920.jpg', alt: 'Image 1' },
+          { src: '/images/als/ANM_3920.jpg', alt: 'Image 1' },
           
           // Add more images as needed
         ],
     
         image2: [
-          { src: '/images/ALS/ANM_3929.jpg', alt: 'Image 2' },
+          { src: '/images/als/ANM_3929.jpg', alt: 'Image 2' },
           
           // Add more images as needed
         ],
 
         image3: [
-          { src: '/images/ALS/ANM_4071.jpg', alt: 'Image 3' },
+          { src: '/images/als/ANM_4071.jpg', alt: 'Image 3' },
           
           // Add more images as needed
         ],
 
         image4: [
-          { src: '/images/ALS/ANM_4072.jpg', alt: 'Image 4' },
+          { src: '/images/als/ANM_4072.jpg', alt: 'Image 4' },
           
           // Add more images as needed
         ],
 
         image5: [
-          { src: '/images/ALS/ANM_4267.jpg', alt: 'Image 5' },
+          { src: '/images/als/ANM_4267.jpg', alt: 'Image 5' },
           
           // Add more images as needed
         ],
