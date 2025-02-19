@@ -138,7 +138,7 @@
                       </div>
                       <div class="card-body">
                         <div class="card-text p-2 Poppins" style="color: #931A25;">
-                          <a href="https://maps.app.goo.gl/ErnTRwGWhP6NdmqX8" target="_blank">
+                          <a href="https://maps.app.goo.gl/cU2sU3PtHN6U3k3Y8" target="_blank">
                           <h5 class="text-uppercase"><b>{{$t('LaundryOkaasanOutlet5')}}</b><br></h5>
                           <p style="text-align: justify;"><span class="Poppins">{{$t('LaundryOkaasanOutlet5Alamat')}}</span>
                           </p>
