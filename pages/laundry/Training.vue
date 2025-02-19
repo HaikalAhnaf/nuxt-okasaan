@@ -1,6 +1,7 @@
 <template>
     <div style="background-image: url('/images/background/Background3.jpg');background-size: cover;">
         <HeroTraining />
+        <KelasLaundrySatuan />
         <AfterSalesService />
     </div>
 </template>
