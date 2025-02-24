@@ -89,6 +89,7 @@ export default {
     '~/assets/css/floating-wpp.css',
     '~/assets/css/style.css',
     '~/assets/css/swiper-bundle.css',
+    'aos/dist/aos.css', // Include AOS CSS globally
     'bootstrap-icons/font/bootstrap-icons.css',
     "bootstrap/dist/css/bootstrap.css"
     
@@ -98,6 +99,7 @@ export default {
   plugins: [
     {src: "~/plugins/bootstrap.js", mode : "client"},
     {src: "~/plugins/jquery.js", mode : "client"},
+    {src: '~/plugins/aos.client.js', mode: 'client' }, // Ensure it's client-side
     {src: "~/plugins/facybox.js", mode : "client"},
     {src: "~/plugins/swiper.js", mode : "client"},
     {src: "~/plugins/i18n.js", mode : "client"},

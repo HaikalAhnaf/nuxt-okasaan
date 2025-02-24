@@ -4,7 +4,6 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-7 py-5">
-                        <h1 class="mb-4 Roboto">{{ $t('indexJudul') }}</h1>
                         <h2 class="m-0 Poppins">{{ $t('indexQuotes') }}</h2>
                     </div>
                     <div class="col-lg-5">

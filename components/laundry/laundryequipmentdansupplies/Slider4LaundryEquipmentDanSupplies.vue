@@ -10,20 +10,27 @@
     <main>
       <vue-horizontal class="horizontal">
         <section>
-          <div class="h-100">
-            <img src="/images/perlengkapan/paketbisnis.jpg" alt="" srcset="" class="img-fluid">
+          <!-- <div class="h-100">
+            <img src="/images/perlengkapan/paketbisnisss.jpg" alt="" srcset="" class="img-fluid">
             <p class="Poppins text-center py-2">{{$t('LaundryEquipmentDanSuppliesSubJudul4Product1')}}</p>
+          </div> -->
+        </section>
+        <section>
+          <div class="h-100">
+            <img src="/images/perlengkapan/comercial.jpg" alt="" srcset="" class="img-fluid">
+            <p class="Poppins text-center py-2">{{$t('LaundryEquipmentDanSuppliesSubJudul4Product2')}}</p>
           </div>
         </section>
         <section>
           <div class="h-100">
-            <a href="/images/perlengkapan/Katalog Expo Laundry 2024 (FINAL WEB).pdf" target="_blank">
+            <a href="/images/perlengkapan/KatalogOkaasan2025.pdf" target="_blank">
             <img src="/images/perlengkapan/covekatalog.jpg" alt="" srcset="" class="img-fluid" target="_blank">
-            <p class="Poppins text-center py-2">{{$t('LaundryEquipmentDanSuppliesSubJudul4Product2')}}</p>
+            <p class="Poppins text-center py-2">{{$t('LaundryEquipmentDanSuppliesSubJudul4Product3')}}</p>
             </a>
-          </div>
+          </div>  
         </section>
       </vue-horizontal>
+
     </main>
   </div>
 </template>
@@ -33,20 +40,7 @@
 import VueHorizontal from 'vue-horizontal';
 
 export default {
-
   components: {VueHorizontal},
-
-
-//   data() {
-//     return {
-//       // E.g: creates 20 array items...
-//       items: [...Array(8).keys()].map((i) => {
-//         return {
-//           i, title: `Responsive`, content: `Content`,
-//         };
-//       }),
-//     }
-//   }
 }
 </script>
 

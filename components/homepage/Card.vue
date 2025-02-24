@@ -1,7 +1,7 @@
 <template>
     <div>
-        <div class="card-group" style="background-color: #F8EEE2;">
-            <div class="card border-0 rounded-0 shadow-0" style="background:linear-gradient(180deg, rgba(147, 26, 37, 0.15) 0%, rgba(147, 26, 37, 0.25) 100%), url('/images/imgdry.jpg')  center / cover no-repeat;">
+        <div class="card-group animate__animated animate__fadeIn" style="background-color: #F8EEE2;">
+            <div class="card border-0 rounded-0 shadow-0" style="background:linear-gradient(180deg, rgba(147, 26, 37, 0.55) 0%, rgba(147, 26, 37, 0.65) 100%), url('/images/imgdry.jpg')  center / cover no-repeat;">
             <NuxtLink :to='`/${$i18n.locale}/laundry`'>
             <div class="card-body Poppins text-center py-5">
                 <h5 class="card-title p-5 text-white text-uppercase display-5 fw-bold Roboto">{{ $t('indexJudulCard1') }}</h5>
@@ -13,8 +13,8 @@
             </div>
         </div>
 
-        <div class="card-group" style="background-color: #F8EEE2;">
-            <div class="card border-0 rounded-0 shadow-0" style="background:linear-gradient(180deg, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0.65) 100%), url('/images/imgagc.jpg')  center / cover no-repeat;">
+        <div class="card-group animate__animated animate__fadeIn" style="background-color: #F8EEE2;">
+            <div class="card border-0 rounded-0 shadow-0" style="background:linear-gradient(180deg, rgba(255, 255, 255, 0.80) 0%, rgba(255, 255, 255, 0.90) 100%), url('/images/imgagc.jpg')  center / cover no-repeat;">
             <NuxtLink :to='`/${$i18n.locale}/Agency`'>
             <div class="card-body Poppins text-center py-5" style="color: #931A25;">
                 <h5 class="card-title p-5 text-uppercase display-5 fw-bold Roboto">{{ $t('indexJudulCard2') }}</h5>

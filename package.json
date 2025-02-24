@@ -13,6 +13,7 @@
     "@fancyapps/ui": "^5.0.35",
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/i18n": "^7.3.1",
+    "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.11.3",
     "chart.js": "^2.9.4",
