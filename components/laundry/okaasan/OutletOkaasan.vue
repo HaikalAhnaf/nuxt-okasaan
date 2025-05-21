@@ -96,7 +96,7 @@
                           <div class="card-text p-2 Poppins" style="color: #931A25;">
                             <a href="https://maps.app.goo.gl/5gGRRxS1p9sgNKom6" target="_blank">
                             <h5 class="text-uppercase"><b>{{$t('LaundryOkaasanOutlet4')}}</b><br></h5>
-                            <p style="text-align: justify;"><span class="Poppins">{{$t('LaundryOkaasanOutlet3Alamat')}}</span>
+                            <p style="text-align: justify;"><span class="Poppins">{{$t('LaundryOkaasanOutlet4Alamat')}}</span>
                             </p>
                           </a>
                           <p class="text-start"><i class="fa fa-whatsapp" style="color: green;"> <a href="https://web.whatsapp.com/send?phone=6281774154626&amp;text=" target="_blank" style="text-decoration: none; color: #931A25;">

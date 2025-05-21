@@ -10,7 +10,7 @@
                     <!-- Left Content -->
                     <div class="col-xl-5 col-lg-6">
                         <div class="bg-white p-5 shadow">
-                            <h1 class="display-3 fw-bold">Devavrata Sinergi <span class="text-main-2">Indonesia</span></h1>
+                            <h1 class="display-3 fw-bold text-main-2">Devavrata <span class="text-black">Sinergi Indonesia</span></h1>
                             <p class="lead my-4">{{ $t('indexQuotes') }}</p>
                             <!-- <a class="btn text-white btn-lg Poppins" style="background-color: #931A25;" href="#features" role="button">DETAILS</a> -->
                         </div>

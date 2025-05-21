@@ -94,7 +94,7 @@
 
             <!-- Copyright -->
             <div class="text-center p-4 text-black Poppins" style="background-color: white">
-            © 2024 Copyright :
+            © 2025 Copyright :
             <a class="fw-bold" href="https://devavrata.co.id/" style="text-decoration: none; color: #931A25;">Devavrata Sinergi</a>
             </div>
             <!-- Copyright -->

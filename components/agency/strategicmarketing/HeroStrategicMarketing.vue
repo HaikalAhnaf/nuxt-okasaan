@@ -4,9 +4,9 @@
         <div class="row py-5">
             <div class="col-md-1 col-lg-1 d-none d-lg-flex align-items-center">
                 <div class="lc-block d-flex Poppins" style="writing-mode: vertical-rl; transform:rotate(180deg)">
-                    <a class="btn btn-link my-1 text-dark text-decoration-none" href="SM/Socialmedia.html" role="button" style="font-size: small;">{{ $t('HalamanAgencyStrategicMarketingSocialMedia') }}</a>
-                    <a class="btn btn-link my-1 text-dark text-decoration-none" href="SM/Videoproduction.html" role="button" style="font-size: small;">{{ $t('HalamanAgencyStrategicMarketingPhotodanVideoProduction') }}</a>
-                    <a class="btn btn-link my-1 text-dark text-decoration-none" href="SM/Website.html" role="button" style="font-size: small;">{{ $t('HalamanAgencyStrategicMarketingWebsite') }}</a>
+                    <NuxtLink :to='`/${$i18n.locale}/agency/strategicmarketing/SocialMedia`' class="btn btn-link my-1 text-dark text-decoration-none" role="button" style="font-size: small;">{{ $t('HalamanAgencyStrategicMarketingSocialMedia') }}</NuxtLink>
+                    <NuxtLink :to='`/${$i18n.locale}/agency/StrategicMarketing/ProduksiFotoDanVideo`' class="btn btn-link my-1 text-dark text-decoration-none" role="button" style="font-size: small;">{{ $t('HalamanAgencyStrategicMarketingPhotodanVideoProduction') }}</NuxtLink>
+                    <NuxtLink :to='`/${$i18n.locale}/agency/StrategicMarketing/Website`' class="btn btn-link my-1 text-dark text-decoration-none" role="button" style="font-size: small;">{{ $t('HalamanAgencyStrategicMarketingWebsite') }}</NuxtLink>
                 </div><!-- /lc-block -->
             </div><!-- /col -->
             <div class="col-lg-6 col-md-6 col-12 px-xl-1">

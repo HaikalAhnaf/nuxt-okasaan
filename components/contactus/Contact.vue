@@ -34,12 +34,6 @@
                             style="text-decoration: none;color: #fff;">
                             <i class="fa fa-envelope"></i> {{ $t('KontakKamiEmail1') }}
                           </a>
-
-                          <br>
-                          <a href="mailto: meilianti@devavrata.co.id"
-                            style="text-decoration: none;color: #fff;">
-                            <i class="fa fa-envelope"></i> {{ $t('KontakKamiEmail2') }}
-                          </a>
                       </div>
                     </div>
                   </div>
