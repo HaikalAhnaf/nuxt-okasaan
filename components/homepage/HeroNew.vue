@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="py-5 d-flex align-items-center min-vh-100 position-relative">
+        <section class="pb-5 d-flex align-items-center min-vh-100 position-relative">
             <div class="container">
                 <div class="col-md-4 d-none d-md-block h-100 position-absolute top-0 start-0 bg-main-1" style="z-index:-2;">
                 </div>
