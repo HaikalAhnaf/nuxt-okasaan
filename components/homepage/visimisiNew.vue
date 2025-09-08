@@ -9,7 +9,7 @@
              data-aos="fade-up"
             >
             <div class="text-center">
-              <img src="/images/visimisi/Visi.png" alt="" width="128" />
+              <img src="/images/visimisi/VISI.png" alt="" width="128" />
             </div> 
               <h2 class="fw-bold display-6 mb-3 Roboto text-uppercase">
                 {{ $t("indexVisi") }}
@@ -23,7 +23,7 @@
               data-aos="fade-up"
             >
             <div class="text-center">
-              <img src="/images/visimisi/Misi.png" alt="" width="128" />
+              <img src="/images/visimisi/MISI.png" alt="" width="128" />
             </div>  
               <h2
                 class="text-white fw-bold display-6 mb-3 Roboto text-uppercase"

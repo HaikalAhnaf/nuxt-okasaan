@@ -40,8 +40,8 @@ export default {
     return {
       currentIndex: 0,
       images: [
-        '/images/1.jpg',
-        '/images/update web.jpg'
+        '/images/PromoSept25.jpg',
+        '/images/GrandOpeningMaharu25.jpg'
       ],
       autoplayInterval: null
     };
