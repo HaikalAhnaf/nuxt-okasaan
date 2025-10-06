@@ -132,8 +132,8 @@
                  <div class="col-lg-4 col-12 col-md-12 py-3">
                     <div class="card h-100 p-3 border-0 Poppins">
                       <div class="d-flex justify-content-center pt-2">
-                        <a href="/images/okasaan/MOI.JPG" target="_blank">
-                          <img src="/images/okasaan/MOI.JPG" class="card-img-top img-fluid w-100 shadow-lg" alt="MOI">
+                        <a href="/images/okasaan/MOI.jpg" target="_blank">
+                          <img src="/images/okasaan/MOI.jpg" class="card-img-top img-fluid w-100 shadow-lg" alt="MOI">
                         </a>
                       </div>
                       <div class="card-body">
